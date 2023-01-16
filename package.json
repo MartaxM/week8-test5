@@ -1,0 +1,27 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": { "parcel-bundler": "^1.6.1" },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4",
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "author": "Marta X. Moraga",
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": ["javascript", "starter"]
+}

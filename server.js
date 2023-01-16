@@ -108,7 +108,7 @@ app.post('/api/todos', checkAuthenticated , (req, res) => {
     }
 })
 
-app.post('/api/todos/list', (req, res) => {
+app.get('/api/todos/list', (req, res) => {
     res.send(todos)
 })
 
